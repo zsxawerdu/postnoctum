@@ -63,3 +63,15 @@ level = "info"
 - `version` is required and is used to version config parsing.
 - `retention` exists in v1 because the system stores full evidence timelines in SQLite.
 - Rule/DSL configuration will evolve; v1 prioritizes built-in rules with explicit enable/disable controls.
+
+## ✅ TODOs
+
+### Phase 1
+- 🔧 Validate required fields (version/state/ipc) on load
+- 🧾 Document config error shapes in CLI output
+
+### Phase 2
+- 🧠 Expand config for rule engine + collectors tuning
+
+### v2 Phase 1
+- 🪟 Windows paths + named pipe settings

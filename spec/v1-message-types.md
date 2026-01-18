@@ -165,3 +165,14 @@ Used by:
 - IPC has `protocol_version` (transport-level) and method result shapes that must remain stable.
 - `explain` has `explain_version` (payload-level).
 - Stored payloads inside SQLite must include a payload `version` field.
+
+## ✅ TODOs
+
+### Phase 1
+- 🧾 Add formal JSON schema files for each payload
+
+### Phase 2
+- 🧭 Add version negotiation response payloads
+
+### v2 Phase 1
+- 📦 Extend DTOs for container/Kubernetes sources

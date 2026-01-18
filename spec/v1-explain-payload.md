@@ -144,3 +144,15 @@ Notes:
 - New fields may be added.
 - Existing fields must not change meaning.
 - Breaking changes require incrementing `explain_version`.
+
+## ✅ TODOs
+
+### Phase 1
+- 🧾 Define markdown/plain text explain formats
+- 🧪 Add example payloads for missing evidence
+
+### Phase 2
+- 🧠 Implement deterministic narrative generator
+
+### v2 Phase 1
+- 📦 Add support for containerized evidence sources

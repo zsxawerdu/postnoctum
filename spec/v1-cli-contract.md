@@ -129,3 +129,17 @@ Alert suppression must never affect reasoning (only notification/alerting behavi
 ## Compatibility
 
 Breaking CLI changes require major version bump and migration notes.
+
+## ✅ TODOs
+
+### Phase 1
+- 🔧 CLI: human output formatting for status/incidents/explain
+- 🧭 CLI: `init` + `service install` workflows
+- 🧾 CLI: JSON errors for invalid input (explain, unknown subcommands)
+
+### Phase 2
+- 🔌 IPC: daemon server + version negotiation
+- 🧠 Daemon: collectors (journald/dmesg/proc) + rule engine
+
+### v2 Phase 1
+- 🪟 Windows named pipe IPC

@@ -120,3 +120,21 @@ Planned v2:
 - Must not modify firewall rules or open network ports.
 
 (Exact UX and confirmation mechanics are specified in CLI behavior and may evolve.)
+
+## ✅ TODOs
+
+### Phase 1
+- 🔧 CLI: human output formatting for status/incidents/explain
+- 🧭 CLI: `init` + `service install` workflows
+- 🧾 CLI: JSON errors for invalid input (explain, unknown subcommands)
+- 🔌 IPC: daemon server + version negotiation
+
+### Phase 2
+- 🧠 Daemon: collectors (journald/dmesg/proc) + rule engine
+- 🗄️ Storage: SQLite schema + migrations + retention job
+- 🧾 Explain: narrative generation + evidence timeline assembly
+
+### v2 Phase 1
+- 🔐 Privilege dropping and hardening
+- 📦 sd-journal ingestion + Docker/Kubernetes sources
+- 🪟 Windows named pipe IPC
