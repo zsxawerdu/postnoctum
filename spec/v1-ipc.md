@@ -97,3 +97,15 @@ Exact payload schemas should be versioned and treated as compatibility-sensitive
 - Socket permissions should restrict access to appropriate local users/groups.
 - No network ports are opened.
 - No outbound communication is performed through IPC.
+
+## ✅ TODOs
+
+### Phase 1
+- 🔌 Implement daemon-side IPC server
+- 🧭 Add protocol version negotiation logic
+
+### Phase 2
+- 📦 Streaming responses for large lists
+
+### v2 Phase 1
+- 🪟 Windows named pipe transport

@@ -117,3 +117,15 @@ Retention must be explicit, logged, and configurable.
 - All timestamps are stored as UTC ISO-8601 strings for inspectability.
 - Payload JSON must include a `version` field to allow evolution.
 - The schema intentionally favors boring inspectability over maximal normalization.
+
+## ✅ TODOs
+
+### Phase 1
+- 🗄️ Implement migrations + schema bootstrap
+- 🧪 Add schema validation tests
+
+### Phase 2
+- 🧾 Add retention job implementation details
+
+### v2 Phase 1
+- 📦 Add tables for container/Kubernetes sources

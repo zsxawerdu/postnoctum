@@ -75,3 +75,15 @@ The full `result` shape is defined by `spec/v1-explain-payload.md`.
 ```json
 {"protocol_version":1,"request_id":"01J3JA4B7M9R4X1W1FZ0R2C7E1","ok":false,"error":{"code":"UnsupportedProtocol","message":"unsupported protocol_version 99; supported: 1","details":{"supported":[1]}},"server_version":"0.1.0"}
 ```
+
+## ✅ TODOs
+
+### Phase 1
+- 🔌 Add server-generated NDJSON examples for errors
+- 🧪 Add example for `DaemonUnavailable`
+
+### Phase 2
+- 📦 Add streaming list example
+
+### v2 Phase 1
+- 🪟 Named pipe examples
